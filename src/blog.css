@@ -1,0 +1,298 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+body{
+    flex-direction: column;
+    display: flex;
+        
+    font-family: "Ubuntu", sans-serif;    
+
+    
+    
+}
+#active{
+    color: #FF6464;
+}
+
+.nav{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: #ffffff;;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    width: auto;
+    height: 60px;
+    margin-bottom: none;
+    z-index: 1000;
+
+}
+.nav a{
+    text-decoration: none;
+    
+}
+.con{
+    text-decoration: none;
+    color: #21243D;
+}
+.nav span{
+    color: #FF6464;
+}
+.nav p{
+    font-size: 29px;
+    font-family:  "Ubuntu", sans-serif; 
+    display: flex;
+    font-weight: 600;
+    color: #21243D;
+    cursor: pointer;
+}
+.nav ul{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    gap: 35px;
+    
+    font-family: "Ubuntu", sans-serif;    
+}
+
+.nav ul li{
+    user-select: none;
+    cursor: pointer;
+    display: flex;
+    
+    text-transform: capitalize;
+    font-weight: 700;
+}
+#menu{
+    display: none;
+}
+/* end of nav bar */
+
+
+
+
+/* blog section */
+
+#everyone{
+    padding: 50px 330px;
+    justify-content: center;
+}
+.blog{
+    font-size: 44px;
+    color: #21243D;
+    font-weight: 800;
+    font-family: "Ubuntu", sans-serif;    
+    margin-bottom: 55px;
+}
+.all{
+    /* background-color: red; */
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    /* background-color: rebeccapurple; */
+    margin-bottom: 100px;
+}
+
+.stext{
+    display: flex;
+    gap: 25px;
+    
+}
+#col{
+    color: #8695A4;
+}
+.stext h3{
+    font-weight: 500;
+    color: #21243D;
+    font-size: 25px;
+}
+
+.stext span{
+    font-weight: 500;
+    font-size: 23px;
+}
+.divtext{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* background-color: rebeccapurple; */
+    width: auto;
+
+}
+.divtext h4{
+    color: #21243D;
+    font-size: 34px;
+    font-weight: 600;
+}
+.divtext h6{
+    font-size: 16px;
+    font-weight: lighter;
+    color: #21243D;
+    line-height: 22px;
+    width: 780px;
+    margin-bottom: 17px;
+}
+.border{
+    border-bottom: 1.1px solid #8695A4;
+}
+
+
+/* footer */
+
+.footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.logo{
+    display: flex;
+    gap: 40px;
+}
+.logo img{
+    width: 35px;
+    height: 34px;
+}
+
+.footer h3{
+    font-size: 16px;
+    color: #21243D;
+    font-family: "Ubuntu", sans-serif;  
+    margin-bottom: 80px;
+}
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+    
+}
+
+@media (max-width: 600px) { 
+    
+    .nav p{
+        font-weight: 900;
+         font-size: 23px;
+     
+     }
+ .nav{
+     display: flex;
+     height: 10px; 
+     justify-content: none;
+     padding: 20px 35px;
+     
+  
+ }
+.nav ul{
+    display: none;
+      
+}
+ 
+#menu{
+    display: flex;
+    color: rgb(0, 0, 0);
+    margin-left: 260px;        
+        
+}
+   
+
+
+/* blog section */
+
+#everyone{
+    padding: 20px 15px;
+    justify-content: center;
+}
+.blog{
+
+    font-weight: 700;
+    font-family: "Ubuntu", sans-serif;    
+    margin-bottom: 10px;
+}
+.all{
+    /* background-color: red; */
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    /* background-color: rebeccapurple; */
+    margin-bottom: 100px;
+}
+
+.stext{
+    display: flex;
+    gap: 25px;
+    
+}
+#col{
+    color: #8695A4;
+}
+.stext h3{
+    font-weight: 500;
+    color: #21243D;
+    font-size: 20px;
+}
+
+.stext span{
+    font-weight: 500;
+    font-size: 23px;
+}
+.divtext{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* background-color: rebeccapurple; */
+    width: auto;
+    
+
+}
+.divtext h4{
+
+    font-size: 30px;
+    font-weight: 600;
+}
+.divtext h6{
+    font-size: 18px;
+    font-weight: lighter;
+
+    width: auto;
+
+
+/* footer */
+
+
+.logo{
+
+    gap: 35px;
+}
+.logo img{
+    width: 30px;
+    height: 29px;
+}
+
+.footer h3{
+    font-size: 14px;
+ 
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+}
+
