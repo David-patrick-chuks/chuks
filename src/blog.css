@@ -17,10 +17,14 @@ body{
 }
 
 .nav{
+    
+    
+    gap: 750px;
+    justify-content: space-around;
+    padding-top: 10px; 
+
 
     display: flex;
-    justify-content: space-between;
-    padding: 20px 80px;
     background: #ffffff;;
     align-items: center;
     position: sticky;
@@ -83,6 +87,7 @@ body{
 }
 .blog{
     font-size: 44px;
+    /* margin-top: 30px */
     color: #21243D;
     font-weight: 800;
     font-family: "Ubuntu", sans-serif;    
@@ -215,6 +220,7 @@ body{
     justify-content: center;
 }
 .blog{
+    margin-top: 30px;
 
     font-weight: 700;
     font-family: "Ubuntu", sans-serif;    
@@ -270,7 +276,7 @@ body{
     width: auto;
 
 
-/* footer */
+}
 
 
 .logo{

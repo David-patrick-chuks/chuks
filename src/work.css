@@ -18,9 +18,14 @@ body{
 
 .nav{
 
+
+    
+    
+    gap: 750px;
+    justify-content: space-around;
+    padding-top: 10px;
+
     display: flex;
-    justify-content: space-between;
-    padding: 20px 80px;
     background: #ffffff;;
     align-items: center;
     position: sticky;

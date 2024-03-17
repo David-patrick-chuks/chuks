@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PORTFOLIO WEBSITE</title>
-    <link href="./output.css" rel="stylesheet">
+    <link href="output.css" rel="stylesheet">
+    <link rel="shortcut icon" href="image/favicon.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/6a0bc7efb1.js" crossorigin="anonymous"></script>
 </head>
 <body class="w-full">
     <header class="flex justify-between py-6 px-10 md:px-20 bg-white sticky top-0">
-        <a href="project.html" class="text-2xl font-extrabold text-secondary font-medium text-blue-600 dark:text-blue-500 hover:underline">CHUKS<span class="text-primary">Web</span></a>
+        <a href="index.html" class="text-2xl font-extrabold text-secondary font-medium hover:underline">CHUKS<span class="text-primary">Web</span></a>
         <ul class="md:flex flex-col md:flex-row hidden gap-5 font-semibold">
-            <li>Blog</li>
-            <li class="active">Works</li>
-            <li>Contact</li>
+            <li><a href="blog.html">Blog</a></li>
+            <li class="active"><a href="workmain.html">Works</a></li>
+            <li><a href="#foot">Contact</a></li>
         </ul>
     </header>   
 
@@ -39,7 +40,7 @@
             </div>
         </div>
 
-        <footer class="flex flex-col gap-5 py-10 text-secondary justify-center items-center">
+        <footer class="flex flex-col gap-5 py-10 text-secondary justify-center items-center" id="foot">
             <div class="flex gap-10 text-3xl">
                 <i class="fa-brands fa-square-facebook"></i>
                 <i class="fa-brands fa-instagram"></i>
